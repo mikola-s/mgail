@@ -3,6 +3,8 @@ import tensorflow as tf
 import numpy as np
 
 
+
+
 def save_params(fname, saver, session):
     saver.save(session, fname)
 
